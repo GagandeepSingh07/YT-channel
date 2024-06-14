@@ -3,74 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5ilence01 YouTube Channel</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>YT channel display</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- -------------------- -->
+  <!-- ---Header Section--- -->
+  <!-- -------------------- -->
     <header>
-        <div class="container">
-            <nav>
-                <h1>5ilence01</h1>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#videos">Videos</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="logo">5ILENCE</div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#updates">Updates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social-media">
+          <a href="your-twitter-link"><i class="fab fa-twitter"></i></a>
+          <a href="your-instagram-link"><i class="fab fa-instagram"></i></a>
+          <a href="your-facebook-link"><i class="fab fa-facebook"></i></a>
         </div>
-    </header>
+      </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>Welcome to 5ilence01's YouTube Channel!</h2>
-            <p>This is where you can find all my latest videos.</p>
-            <a href="#videos" class="cta-button">Watch Now</a>
+      <!-- -------------------- -->
+      <!-- ----Hero Section---- -->
+      <!-- -------------------- -->
+      <section id="hero" style="background-image: url('your-hero-image.jpg');">
+        <div class="hero-content">
+          <h1>Your Channel Name</h1>
+          <p>Your Channel Tagline</p>
+          <a href="https://www.youtube.com/@5ilence01?sub_confirmation=1" class="subscribe-button"><!-- <img src="youtube-logo-24.png" alt="">  -->Subscribe</a>
         </div>
+      </section>
+      <section id="about">
+
+        <!-- -------------------- -->
+        <!-- ---About  Section--- -->
+        <!-- -------------------- -->
+        <h2>About Me</h2>
+        <p>"YOU gonna find the best gaming montage videos waiting for you 😊."</p>
+        <div class="milestones">
+          <div class="milestone">
+            <h3>Subscribers</h3>
+            <p>118</p>
+          </div>
+          <div class="milestone">
+            <h3>Views</h3>
+            <p>23,933</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------------- -->
+      <!-- ---Video  Section--- -->
+      <!-- -------------------- -->
+      <section id="videos">
+        <h2>Featured Videos</h2>
+        <div class="video-grid">
+          <div class="video">
+            <a href="https://youtu.be/MPyAQSqBsoU?si=F1nm78On1zG3Xszp">
+              <img src="video1.jpg" alt="Video Title">
+              <h3>Wednesday Free Fire Montage🔥 edit|@5ilence01</h3>
+            </a>
+          </div>
+          <div class="video">
+            <a href="https://youtu.be/FC6sYHuCW5w?si=vVvLgtZoH7lRKsvu">
+              <img src="video2.jpg" alt="Video Title">
+              <h3>Money Rain Song (Vtornik) Free Fire Montage|@5ilence01</h3>
+            </a>
+          </div>
+          <div class="video">
+            <a href="https://youtu.be/fS_clppFrk4?si=wmZG_auQ_fjH5xlH">
+              <img src="video3.jpg" alt="Video Title">
+              <h3>People x Nainowale Ne Montage with beat sync|@5ilence01</h3>
+            </a>
+          </div>
+          <!-- Repeat for more videos -->
+        </div>
+      </section>
+      
+      <!-- -------------------- -->
+      <!-- Updates/Blog Section -->
+      <!-- -------------------- -->
+      <section id="updates">
+        <h2>Latest Updates</h2>
+        <div class="update">
+          <h3>Update Title</h3>
+          <p>Short description of the update...</p>
+          <a href="update-link" class="update-link">Read more</a>
+        </div>
+        <!-- Repeat for more updates -->
+      </section>
+
+      <!-- --------------------------------------- -->
+      <!-- Testimonials/Community Feedback Section -->
+      <!-- --------------------------------------- -->
+      <section id="testimonials">
+        <h2>What People Are Saying</h2>
+        <div class="testimonial">
+          <p>"Great content! Keep it up!"</p>
+          <p>- Viewer Name</p>
+        </div>
+        <div class="testimonial">
+          <p>"Nice Video! ❤"</p>
+          <p>- Viewer Name</p>
+        </div>
+        <!-- Repeat for more testimonials -->
+      </section>
+
+    <!-- -------------------- -->
+    <!-- --Contact  Section-- -->
+    <!-- -------------------- -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:your-email@example.com"><!-- my-email@example.com --></a></p>
+      </div>
     </section>
     
-    <main>
-        <section id="videos" class="videos">
-            <div class="container">
-                <h2>Latest Videos</h2>
-                <div class="video-grid">
-                    <div class="video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="about" class="about">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>Write something about yourself and your channel here.</p>
-            </div>
-        </section>
-        
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2>Contact Me</h2>
-                <p>You can reach me at: example@email.com</p>
-                <p>Follow me on social media:</p>
-                <ul class="social-media">
-                    <li><a href="#"><img src="facebook-logo-24.png" class="icon" alt="Facebook"></a></li>
-                    <li><a href="#"><img src="twitter-logo-24.png" class="icon" alt="Twitter"></a></li>
-                    <li><a href="#"><img src="instagram-logo-24.png" class="icon" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="youtube-logo-24.png" class="icon" alt="YouTube"></a></li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    
+    <!-- -------------------- -->
+    <!-- ---Footer Section--- -->
+    <!-- -------------------- -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 5ilence01 YouTube Channel. All rights reserved.</p>
-        </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#videos">Videos</a>
+        <a href="#updates">Updates</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="your-twitter-link"><i class="fab fa-twitter"></i></a>
+        <a href="your-instagram-link"><i class="fab fa-instagram"></i></a>
+        <a href="your-facebook-link"><i class="fab fa-facebook"></i></a>
+      </div>
+      <p>&copy; 2024 5ILENCE. All rights reserved.</p>
     </footer>
 </body>
 </html>

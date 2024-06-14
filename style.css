@@ -1,0 +1,311 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header .social-media a {
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  header .social-media a:hover {
+    color: #ff0000; /* YouTube Red */
+  }
+  
+  /* Hero Section */
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: #fff;
+  }
+  
+  #hero .hero-content {
+    max-width: 800px;
+  }
+  
+  #hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  #hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  #hero .subscribe-button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+  
+  #hero .subscribe-button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  #about .milestones {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  #about .milestone h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  #about .milestone p {
+    font-size: 1.2em;
+  }
+  
+  /* Featured Videos Section */
+  #videos {
+    padding: 50px 20px;
+  }
+  
+  #videos h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #videos .video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  #videos .video {
+    width: 300px;
+    text-align: center;
+  }
+  
+  #videos .video img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  #videos .video img:hover {
+    transform: scale(1.05);
+  }
+  
+  #videos .video h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Updates Section */
+  #updates {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  #updates h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #updates .update {
+    margin-bottom: 20px;
+  }
+  
+  #updates .update h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #updates .update p {
+    font-size: 1.2em;
+  }
+  
+  #updates .update a {
+    font-size: 1em;
+    color: #fff;
+  }
+  .update-link{
+    padding: 10px 20px;
+    margin-top: 8px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  #testimonials .testimonial {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  #contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #contact form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  #contact form button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  #contact form button:hover {
+    background-color: #cc0000;
+  }
+  
+  #contact .contact-info p {
+    font-size: 1.2em;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer .footer-links a {
+    margin: 0 10px;
+  }
+  
+  footer .footer-social a {
+    margin: 0 10px;
+    color: #fff;
+  }
+  
+  footer .footer-social a:hover {
+    color: #ff0000;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
